@@ -1,0 +1,14 @@
+﻿{
+  "brandName": "Fyrrebakkeskoven",
+  "searchConfig": {
+    "komkode": 840
+  },
+  "aboutBox": "<p>Driftplan og kort over fyrrebakkeskoven. Skovejer Mikkel Kappel</p>",
+  "baseLayers": [
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+    {"id": "googleStreets", "name": "Google Streets"},
+    {"id": "googleHybrid", "name": "Google Hybrid"}
+ 
+  ]
+}

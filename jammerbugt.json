@@ -1,0 +1,13 @@
+{
+  "brandName": "Jammerbugt Kommune",
+  "searchConfig": {
+    "komkode": "849"
+  },
+  "aboutBox": "<p>Jammerbugt Kommunes kommuneplan</p>",
+  "baseLayers": [
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "dtkSkaermkortDaempet", "name": "Skærmkort, dæmpet"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+ 
+  ]
+}

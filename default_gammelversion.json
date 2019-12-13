@@ -1,0 +1,14 @@
+{
+  "brandName": "COWI A/S",
+  "searchConfig": {
+    "komkode": "201"
+  },
+  "aboutBox": "<p>COWI about.</p>",
+  "baseLayers": [
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "dtkSkaermkortDaempet", "name": "Skærmkort, dæmpet"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+    {"id": "googleStreets", "name": "Google Streets"},
+    {"id": "googleHybrid", "name": "Google Hybrid"}
+  ]
+}

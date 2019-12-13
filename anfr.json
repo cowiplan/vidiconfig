@@ -1,0 +1,21 @@
+{
+  "brandName": "COWI A/S",
+  "enabledSearch": "swedish",
+      "template": "cowiDetail.tmpl",
+	     "enabledExtensions": ["isochrone","session"],
+		     "enabledPrints": ["cowiDetailPrint"],
+  "searchConfig": {
+    "komkode": "*"
+  },
+      "singleTiled": [
+        "detail_se.detail_se.poptot_km_region"
+    ],
+  "aboutBox": "<p>COWI about.</p>",
+  "baseLayers": [
+        {"id": "osm", "name": "OSM"}
+ 
+  ]
+  
+  
+
+}

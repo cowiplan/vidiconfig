@@ -1,0 +1,35 @@
+﻿{
+  "brandName": "Kujalleq Kommunia",
+
+
+  "aboutBox": "<p></p>",
+
+  "baseLayers": [
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+    {"id": "googleStreets", "name": "Google Streets"},
+    {"id": "googleHybrid", "name": "Google Hybrid"}
+ 
+  ],
+
+  "enabledSearch": "google",
+
+  "enabledExtensions": [
+        "glSetExtent",
+        "languages"
+    ],
+
+  "extensionConfig": {
+        "languages": {
+            "da_DK": {
+                "schema": "dk",
+                "txt": "Dansk"
+            },
+            "gl_GL": {
+                "schema": "gl",
+                "txt": "Grønlansk"
+            }
+        }
+    }
+
+}

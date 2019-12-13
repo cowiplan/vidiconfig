@@ -1,0 +1,12 @@
+﻿{
+  "brandName": "Koebenhavns Kommune",
+  "searchConfig": {
+    "komkode": "101"
+  },
+  "aboutBox": "<p>Københavns Kommunes sektorplaner</p>",
+  "baseLayers": [
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+ 
+  ]
+}

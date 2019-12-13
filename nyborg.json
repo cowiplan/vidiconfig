@@ -1,0 +1,12 @@
+{
+  "brandName": "Nyborg Kommune",
+  "searchConfig": {
+    "komkode": "450"
+  },
+  "aboutBox": "<p></p>",
+  "baseLayers": [
+    {"id": "dtkSkaermkortDaempet", "name": "Skærmkort"},
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
+  ]
+}

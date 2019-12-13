@@ -1,0 +1,19 @@
+{
+    "enabledSearch": "danish",
+    "enabledExtensions": ["isochrone","cowiDetail","session"],
+    "enabledPrints": ["cowiDetailPrint"],
+    "template": "cowiDetail.tmpl",
+    "brandName": "COWI A/S",
+
+    "singleTiled": [
+        "detail.dkn_befolkning_og_arbejdspladser"
+    ],
+
+    "baseLayers": [
+        {"id": "dk", "name": "DK", "db": "osm", "host":  "https://gc2.io"}
+    ],
+    "searchConfig": {
+        "komkode": "*"
+    }
+}
+

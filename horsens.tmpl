@@ -1,0 +1,265 @@
+<style>
+html, body {
+    height:100%;
+}
+.horsens-first-nav{
+    background-color:#00a4a7;
+    height:39px;
+    font-size: 11px;
+    box-shadow:none;
+    font-family: "Poppins", sans-serif;
+    line-height: 2.1;
+}
+
+.horsens-first-nav .active{
+    background-color:#00a4a7;
+    box-shadow: 0px 0px 5px 2px #00686a inset;
+}
+
+.horsens-second-navbar{
+    font-family: "Poppins", sans-serif;
+    background-color:#ffffff;
+}
+
+.horsens-second-navbar .active{
+    background-color:#00a4a7;
+}
+.horsens-second-navbar .active a{
+    color:white !important;
+}
+
+.horsens-second-navbar a{
+    color:#00695c !important;
+}
+
+.horsens-popup .leaflet-popup-content-wrapper{
+    border-radius: 5px;
+    border: 1px solid #00000063;
+}
+.horsens-popup h3{
+    color:#00695c;
+}
+.horsens-popup .leaflet-popup-tip-container{
+    margin: -1px auto;
+}
+.horsens-side-bar > img{
+    width: 100%;
+    height: 324px;
+}
+.horsens-side-bar > p {
+    max-height:493px;
+    min-height: 493px;
+    overflow:auto;
+    margin-bottom:0;
+    font-family: "Poppins", sans-serif;
+}
+
+.horsens-map-controls i{
+    color:black;
+}
+.horsens-map-controls{
+    position:fixed;
+    right:0;
+    left: unset;
+}
+
+.horsens-control {
+    background-color:white !important;
+    border-radius: 60%;
+    width: 70px;
+    height: 70px;
+}
+.horsens-control > i{
+    position: absolute !important;
+    top: 42%;
+    left: 41%;
+}
+.horsens-map-control-layers > i{
+    left: 34%;
+    top: 34%;
+}
+
+.pt-lg-custom-horsens{
+    padding-top: 7rem !important;
+}
+.horsens-layer-control{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+@media (max-width:991px){
+    .horsens-second-navbar{
+        background-color: #00695c !important;
+        z-index: 1031;
+    }
+    .horsens-second-navbar a{
+        color:white !important;
+    }
+
+    .pt-lg-custom-horsens{
+        padding-top: 3rem !important;
+    }
+
+    .horsens-side-bar{
+        display:flex;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        bottom:0;
+        min-width: 100%;
+        height:20vh;
+    }
+    .horsens-side-bar > p {
+        max-height:500px;
+        min-height: 0;
+        overflow:auto;
+        margin-bottom:0;
+    }
+    .horsens-side-bar > img {
+        width:30%;
+		height:100%;
+    }
+    .horsens-layer-control{
+        bottom: 178px;
+    }
+}
+
+.leaflet-popup-tip-container{
+    left:44.5%;
+}
+</style>
+
+<div id="map"></div>
+<div class="horsens-container">
+    <!--Static Navigation-->
+    <div class="d-none d-lg-block">
+        <nav class="navbar navbar-expand-lg navbar-dark horsens-first-nav">
+            <div class="container">
+                    <!--
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#horsensFirstNavbar" aria-controls="horsensFirstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>-->
+                    <div class="collapse navbar-collapse" id="horsensFirstNavbar">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="http://kommuneplan.horsens.dk/dk/planstrategi/planstrategi.htm">STRATEGI</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://kommuneplan2017.horsens.dk/">KOMMUNEPLAN</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://lokalplaner.horsens.dk/">LOKALPLANER</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="http://sektorplaner.horsens.dk/">SEKTORPLANER <span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://helhedsplaner.horsens.dk/">HELHEDSPLANER</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </div>
+    <!--Static Navigation-->
+
+    <!--Horsens Vidi Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-default horsens-second-navbar">
+            <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#horsensSecondNavbar" aria-controls="horsensSecondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="horsensSecondNavbar">
+                        <ul class="navbar-nav mr-auto d-md-block d-lg-none">
+                            <li class="nav-item"><a class="nav-link" href="http://kommuneplan.horsens.dk/dk/planstrategi/planstrategi.htm">STRATEGI</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://kommuneplan2017.horsens.dk/">KOMMUNEPLAN</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://lokalplaner.horsens.dk/">LOKALPLANER</a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://sektorplaner.horsens.dk/">SEKTORPLANER <span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="http://helhedsplaner.horsens.dk/">HELHEDSPLANER</a></li>
+                            <li><hr></li>
+                        </ul>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" id="horsens-home"><i class="fa fa-home mr-2 " aria-hidden="true"></i>FORSIDE</a></li>
+                            <li class="nav-item ml-lg-3"><a class="nav-link areas" id="100"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>OMRÅDE 1</a></li>
+                            <li class="nav-item ml-lg-3"><a class="nav-link areas" id="200"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>OMRÅDE 2</a></li>
+                            <li class="nav-item ml-lg-3"><a class="nav-link areas" id="300"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>OMRÅDE 3</a></li>
+                            <li class="nav-item ml-lg-3"><a class="nav-link areas" id="400"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>OMRÅDE 4</a></li>
+                            <li class="nav-item ml-lg-3"><a class="nav-link areas" id="500"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>OMRÅDE 5</a></li>
+                            <li class="nav-item ml-lg-3"><a class="nav-link areas" id="600"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>OMRÅDE 6</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <!--Horsens Vidi Navigation-->
+
+
+
+    <!--sidebar-->
+    <div class="bg-white col-3 horsens-side-bar float-left">
+        <img src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="" class="">
+        <p class="pl-4 pr-4 pt-4" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummyLorem Ipsum has been the industry's standard dummyLorem Ipsum has been the industry's standard dummyLorem Ipsum has been the industry's standard dummyLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <div class="pl-0 pr-0 horsens-map-controls fixed-top pt-lg-custom-horsens">
+        <ul>
+            <li class="list-unstyled"><a class="btn btn-elegant bg-white waves-effect horsens-control horsens-map-control-plus"><i class="fa fa-plus fa-lg"></i></a></li>
+            <li class="list-unstyled"><a class="btn btn-elegant bg-white waves-effect horsens-control horsens-map-control-minus"><i class="fa fa-minus fa-lg"></i></a></li>
+            <li class="list-unstyled"><a class="btn btn-elegant bg-white waves-effect horsens-control horsens-map-control-home"><i class="fa fa-home fa-lg"></i></a></li>
+            <li class="list-unstyled"><a class="btn btn-elegant bg-white waves-effect horsens-control horsens-map-control-layers"><i class="material-icons">layers</i></a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-4 col-lg-2 pb-4 pb-4 horsens-layer-control">
+        <div class="bg-white col pb-2 pt-2">
+            <h1>Kort lag</h1>
+            <hr>
+            <div class="horsens-layers-container">
+                <div class="custom-control custom-radio mb-4 ">
+                    <input class="custom-control-input waves-effect" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="custom-control-label" for="exampleRadios1">
+                        Option 1
+                    </label>
+                </div>
+                <div class="custom-control custom-radio mb-4">
+                    <input class="custom-control-input waves-effect" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="custom-control-label" for="exampleRadios2">
+                        Option 2
+                    </label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input waves-effect" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                    <label class="custom-control-label" for="exampleRadios3">
+                        Option 3
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+	$('link[rel=stylesheet][href~="/css/styles.css"]').remove();
+})
+</script>
+
+<style>
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.modal-title {
+  line-height: 1;
+}
+.modal-open {
+  overflow: auto !important;
+}
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  border-right: 1px solid #ddd;
+}
+</style>

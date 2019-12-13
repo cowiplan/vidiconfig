@@ -1,0 +1,38 @@
+{
+  "brandName": "Kommune Qeqertalik",
+
+
+  "aboutBox": "<p></p>",
+
+  "baseLayers": [
+	{"id": "osm", "name": "OSM"},
+	{"id": "eget_grundkort", "name": "Grundkort", "db": "gl_baselayers"},
+	{"id": "ortofoto.@LOKKODE@", "name": "Ortofoto", "db": "gl_baselayers"}
+	
+  ],
+
+  "enabledSearch": "google",
+
+  "enabledExtensions": [
+        "glSetExtent",
+        "languages"
+    ],
+
+  "extensionConfig": {
+        "languages": {
+            "da_DK": {
+                "schema": "dk",
+                "txt": "Dansk"
+            },
+            "gl_GL": {
+                "schema": "gl",
+                "txt": "Grønlansk"
+            },
+            "en_US": {
+                "schema": "en",
+                "txt": "Engelsk"
+            }
+        }
+    }
+
+}
