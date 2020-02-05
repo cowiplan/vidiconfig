@@ -3,7 +3,7 @@
   "searchConfig": {
     "komkode": "707"
   },
-  "aboutBox": "<p>Norddjurs Kommunes digitale plan webGIS</p>"
+  "aboutBox": "<p>Norddjurs Kommunes digitale plan webGIS</p>",
   "baseLayers": [
     {"id": "dtkSkaermkortDaempet", "name": "Skærmkort"},
     {"id": "osm", "name": "Open Street Map"},
