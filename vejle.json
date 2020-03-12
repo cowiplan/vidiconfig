@@ -1,10 +1,11 @@
 {
   "brandName": "Vejle Kommune",
   "searchConfig": {
-    "komkode": 630
+    "komkode": "630"
   },
   "aboutBox": "<p></p>",
   "baseLayers": [
+    {"id": "dtkSkaermkortDaempet", "name": "Skærmkort"},
     {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
   ]
