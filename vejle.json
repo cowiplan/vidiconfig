@@ -7,6 +7,5 @@
   "baseLayers": [
     {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
- 
   ]
 }
