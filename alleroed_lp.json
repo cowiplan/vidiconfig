@@ -11,8 +11,8 @@
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
-                "maxZoom": 11,
-                "maxNativeZoom": 19,
+                "maxZoom": 1,
+                "maxNativeZoom": 1,
                 "attribution": "&copy; SDFE & MapCentia ApS"
             }
         },        {
