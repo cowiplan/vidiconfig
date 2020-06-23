@@ -1,0 +1,31 @@
+{
+  "brandName": "Lyngby-Taarbæk KOmmune",
+  "searchConfig": {
+    "komkode": "173"
+  },
+  "aboutBox": "<p>Lyngby-Taarbæk Kommune</p>",
+  "baseLayers": [
+	 {
+            "id": "geodk.bright",
+            "name": "GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },        {
+            "id": "luftfotoserier.geodanmark_2019_12_5cm",
+            "name": "Ortofoto 2019",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+ 
+  ]
+}
