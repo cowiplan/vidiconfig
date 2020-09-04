@@ -1,18 +1,57 @@
 {
-    "enabledSearch": "danish",
-    "enabledExtensions": ["isochrone","cowiDetail","session"],
-    "enabledPrints": ["cowiDetailPrint"],
-    "brandName": "COWI A/S",
+  "brandName": "COWI A/S",
+  "searchConfig": {
+    "komkode": "*"
+  },
+  "aboutBox": "<p>COWI about.</p>",
+  "baseLayers": [
+	 {
+            "id": "geodk.bright",
+            "name": "GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE"
+            }
+        },        
+		{
+            "id": "luftfotoserier.geodanmark_2019_12_5cm",
+            "name": "Luftfoto 2019",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+		{
+            "id": "luftfotoserier.geodanmark_2018_12_5cm",
+            "name": "Luftfoto 2018",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE"
+            }
+        },
 
-    "singleTiled": [
-        "detail.dkn_befolkning_og_arbejdspladser"
-    ],
-
-    "baseLayers": [
-        {"id": "dk", "name": "DK", "db": "osm", "host":  "https://gc2.io"}
-    ],
-    "searchConfig": {
-        "komkode": "*"
-    }
+        {"id": "osm", "name": "OSM"},
+		{"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+ 
+  ]
 }
-
