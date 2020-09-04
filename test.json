@@ -2,7 +2,6 @@
     "enabledSearch": "danish",
     "enabledExtensions": ["isochrone","cowiDetail","session"],
     "enabledPrints": ["cowiDetailPrint"],
-    "template": "cowiDetail.tmpl",
     "brandName": "COWI A/S",
 
     "singleTiled": [
