@@ -5,5 +5,5 @@
   display:none;
 }
 .embed-session {
-  display:none;
+  display:none !important;
 }
