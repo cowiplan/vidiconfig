@@ -4,54 +4,322 @@
     "komkode": "849"
   },
   "aboutBox": "<p>Jammerbugt Kommunes kommuneplan</p>",
- "baseLayers": [
-	 {
-            "id": "geodk.bright",
-            "name": "GeoDanmark kort",
+    "baseLayers": [
+        {
+            "id": "geodk.bright-01052019",
+            "name": "Topografisk kort, lavkontrast",
             "db": "baselayers",
-            "host": "https://gc2.io",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/aqwPtJAKE9BzKes?x=2553&y=827&a=true&file=sagsbehandler_basiskort_eget.png&scalingup=0'>",
             "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
-                "attribution": "&copy; SDFE"
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
             }
-        },        
-		{
+        },
+        {
+            "id": "hereNormalDay",
+            "name": "Normal Day",
+            "abstract": "Kort fra HERE"
+        },
+        {
+            "id": "hereNormalDayGrey",
+            "name": "HERE, Normal Day Grey",
+            "abstract": "Kort fra HERE"
+        },
+        {
+            "id": "hereNormalNightGrey",
+            "name": "HERE, Normal Night Grey",
+            "abstract": "Kort fra HERE"
+        },
+        {
+            "id": "hereSatelliteDay",
+            "name": "HERE, Satellite Day",
+            "abstract": "Kort fra HERE"
+        },
+        {
+            "id": "hereHybridDay",
+            "name": "HERE, Hybrid Day",
+            "abstract": "Kort fra HERE"
+        },
+        {
+            "id": "kortforsyningen.sagsbehandler_basiskort",
+            "name": "Topografisk kort, lavkontrast (løbende ajourført)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort fra Kortforsyningens Forvaltning2-tjenesten, som bliver løbende ajourført, for nogle objekttyper ned til hvert kvarter.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/88aSdaoCLWKZL8r?x=2553&y=827&a=true&file=sagsbehandler_basiskort.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten."
+            }
+        },
+        {
+            "id": "kortforsyningen.natur_friluftskort",
+            "name": "Topografisk kort, natur- og fritidsformål",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort fra Kortforsyningens Natur_friluftskort-tjenesten, som bliver ajourført 3-4 gange årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Natur_friluftskort-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/jepxPpnMNEkHik4?x=2553&y=827&a=true&file=natur_friluftskort.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+        {
             "id": "luftfotoserier.geodanmark_2019_12_5cm",
             "name": "Luftfoto 2019",
             "db": "baselayers",
-            "host": "https://gc2.io",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2019 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/zqoWbwDGiyCQ5zn?x=2553&y=827&a=true&file=luftfoto_2019.png&scalingup=0'>",
             "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 20,
-                "attribution": "&copy; SDFE"
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
             }
         },
-		{
+        {
+            "id": "kortforsyningen.quickfoto",
+            "name": "Luftfoto 2020 - 15 cm (foreløbig version, ikke hele Danmark)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Foreløbige luftfoto marts/april 2020 (15 cm pixels). Ej målfast! Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/RJMizkq9cFKn8qj?x=2553&y=827&a=true&file=quickfoto.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+        {
+            "id": "kortforsyningen.quickfoto_10cm",
+            "name": "Luftfoto 2020 - 10 cm (foreløbig version, ikke hele Danmark)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Foreløbige luftfoto marts/april 2020 10 cm pixels). Ej målfast! Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/RJMizkq9cFKn8qj?x=2553&y=827&a=true&file=quickfoto.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+        {
             "id": "luftfotoserier.geodanmark_2018_12_5cm",
             "name": "Luftfoto 2018",
             "db": "baselayers",
-            "host": "https://gc2.io",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2018 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/WzGweqNMZDKyx8E?x=2553&y=827&a=true&file=luftfoto_2018.png&scalingup=0'>",
             "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 20,
-                "attribution": "&copy; SDFE"
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
             }
         },
         {
             "id": "luftfotoserier.geodanmark_2017_12_5cm",
             "name": "Luftfoto 2017",
             "db": "baselayers",
-            "host": "https://gc2.io",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2017 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/bXBDW6ssarLkWdZ?x=2553&y=827&a=true&file=luftfoto_2017.png&scalingup=0'>",
             "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 20,
-                "attribution": "&copy; SDFE"
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
             }
         },
-
-        {"id": "osm", "name": "OSM"},
-		{"id": "stamenTonerLite", "name": "Stamen Toner Light"}
- 
+        {
+            "id": "luftfotoserier.geodanmark_2016_12_5cm",
+            "name": "Luftfoto 2016",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2016 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/bXBDW6ssarLkWdZ?x=2553&y=827&a=true&file=luftfoto_2017.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+        {
+            "id": "i_gis.digekort",
+            "name": "Digekort",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Digekort hentet fra I-GIS. Digekortet må frit anvendes.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/DtmzTDBZmdmTbdT?x=2553&y=827&a=true&file=digekort.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Digekortet må frit anvendes."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_skaermkort",
+            "name": "Topografisk kort (Kortforsyningens skærmkort)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens skærmkort).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, Skærmkort-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/GtwkbKAqiLCW24m?x=2553&y=827&a=true&file=skaermkort.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_skaermkort_daempet",
+            "name": "Topografisk kort (Kortforsyningens skærmkort, dæmpet)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens skærmkort, dæmpet).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, Skærmkort-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/EsGqYirMregnRWb?x=2553&y=827&a=true&file=skaermkort_daempet.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_skaermkort_graa",
+            "name": "Topografisk kort (Kortforsyningens skærmkort, gråt)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens skærmkort, gråt).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, Skærmkort-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/HZEmrBmdNi4ErDw?x=2553&y=827&a=true&file=skaermkort_graat.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.topo25_klassisk",
+            "name": "Topografisk kort (Kortforsyningens 1:25.000, klassisk)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:25.000, klassisk).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo25-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/eb3CPAmi7B52cb9?x=2553&y=827&a=true&file=topo25.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.topo25_daempet",
+            "name": "Topografisk kort (Kortforsyningens 1:25.000, dæmpet)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:25.000, dæmpet).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo25-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/9PYDcXpcPSAxLmo?x=2553&y=827&a=true&file=topo25_daempet.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.topo25_graa",
+            "name": "Topografisk kort (Kortforsyningens 1:25.000, gråtonet)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:25.000, gråt).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo25-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/nYfKkQ8Bnj2C264?x=2553&y=827&a=true&file=topo25_graat.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_2cm",
+            "name": "Topografisk kort (Kortforsyningens 1:50.000)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:50.000).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo50-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/NFg5WYye9eG3brx?x=2553&y=827&a=true&file=topo50.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_1cm",
+            "name": "Topografisk kort (Kortforsyningens 1:100.000)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:100.000).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo100-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/6wn8fNGsypjqjLr?x=2553&y=827&a=true&file=topo100.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_d200",
+            "name": "Topografisk kort (Kortforsyningens 1:200.000)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:200.000).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo_basis-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/QHYx9jkmQ5sioEQ?x=2553&y=827&a=true&file=topo200.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_d500",
+            "name": "Topografisk kort (Kortforsyningens 1:500.000)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:500.000).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo_basis-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/KoAzMdDK8jEPZZX?x=2553&y=827&a=true&file=topo500.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_d850",
+            "name": "Topografisk kort (Kortforsyningens 1:850.000)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens 1:850.000).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo_basis-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/zZpTKbdjaZ7qJpW?x=2553&y=827&a=true&file=topo850.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_lave_maalebordsblade",
+            "name": "Topografisk kort (Kortforsyningens lave målebordsblade, 1928-1940)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens lave målebordsblade, 1928-1940).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo20_lave_maalebordsblade-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/CEaQNNJJiyf4Cm6?x=2553&y=827&a=true&file=lave_maalebordsblade.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "kortforsyningen.dtk_hoeje_maalebordsblade",
+            "name": "Topografisk kort (Kortforsyningens høje målebordsblade, 1842-1899)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p> Topografisk kort (Kortforsyningens høje målebordsblade, 1842-1899).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, topo20_hoeje_maalebordsblade-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/ZB6xQbCPWQLpBWd?x=2553&y=827&a=true&file=hoeje_maalebordsblade.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },
+        {
+            "id": "osm",
+            "name": "Topografisk kort - Open Street Map",
+            "abstract": "<p>Kortet hentes fra Open Street Map.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/d66QC8j5mNi4xDS?x=2553&y=827&a=true&file=open_street_map.png&scalingup=0'>"
+        },
+        {
+            "id": "stamenToner",
+            "name": "Topografisk kort - Stamen Toner - Dark",
+            "abstract": "<p>Kortet hentes fra Stamen Toner.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/YpYDEbo6C8BX34a?x=2553&y=827&a=true&file=stamen_toner_dark.png&scalingup=0'>"
+        },
+        {
+            "id": "stamenTonerLite",
+            "name": "Topografisk kort - Stamen Toner - Light",
+            "abstract": "<p>Kortet hentes fra Stamen Toner.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/YpYDEbo6C8BX34a?x=2553&y=827&a=true&file=stamen_toner_dark.png&scalingup=0'>"
+        }
   ]
 }
