@@ -11,22 +11,5 @@
     {"id": "eget_grundkort.baggrundskort_nunagis", "name": "Baggrundskort NunaGIS", "db": "gl_baselayers"},
     {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
-  ],
-	
-	 "extensionConfig": {
-        "languages": {
-            "da_DK": {
-                "schema": "dk",
-                "txt": "Dansk"
-            },
-            "gl_GL": {
-                "schema": "gl",
-                "txt": "Grønlansk"
-            },
-            "en_US": {
-                "schema": "en",
-                "txt": "Engelsk"
-            }
-        }
-    }
+  ]
 }
