@@ -1,0 +1,12 @@
+{
+  "brandName": "Slagelse Kommune",
+  "searchConfig": {
+    "komkode": "330"
+  },
+  "aboutBox": "<p></p>",
+  "baseLayers": [
+    {"id": "dtkSkaermkortDaempet", "name": "Skærmkort"},
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
+  ]
+}
