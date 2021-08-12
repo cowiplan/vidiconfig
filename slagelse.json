@@ -7,6 +7,18 @@
   "baseLayers": [
     {"id": "dtkSkaermkortDaempet", "name": "Skærmkort"},
     {"id": "osm", "name": "Open Street Map"},
-    {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+            {
+            "id": "kortforsyningen.quickfoto",
+            "name": "Luftfoto 2020 - 15 cm (foreløbig version, ikke hele Danmark)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Foreløbige luftfoto marts/april 2020 (15 cm pixels). Ej målfast! Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/RJMizkq9cFKn8qj?x=2553&y=827&a=true&file=quickfoto.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        }
   ]
 }
