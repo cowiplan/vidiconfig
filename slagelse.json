@@ -9,8 +9,8 @@
     {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
              {
-            "id": "luftfotoserier.geodanmark_2016_12_5cm",
-            "name": "Luftfoto 2016",
+            "id": "luftfotoserier.geodanmark_2020_12_5cm",
+            "name": "Luftfoto 2020",
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
