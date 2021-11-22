@@ -5,7 +5,18 @@
   },
   "aboutBox": "<p></p>",
   "baseLayers": [
-    {"id": "dtkSkaermkortDaempet", "name": "Skærmkort"},
+       {
+        "type": "wms",
+        "url": "https://services.kortforsyningen.dk/service?servicename=topo_skaermkort&token=c1d269eb5ceec3a543b218aae2e8ae2c&",
+        "layers": ["dtk_skaermkort_daempet"],
+        "id": "dtkSkaermkortDaempet",
+        "name": "DTK Skærmkort, dæmpet",
+        "description": "dtk_skaermkort",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22
+    }, 
     {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
   ]
