@@ -6,8 +6,8 @@
   "aboutBox": "<p></p>",
   "baseLayers": [
        {
-        "type": "wms",
-        "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?service=WMS&request=GetCapabilities&token=9d7d0998737c1ae0a1578a119c96e1e7",
+        "type": "wmts",
+        "url": "https://api.dataforsyningen.dk/topo_skaermkort_wmts_DAF?service=WMTS&request=GetCapabilities&token=9d7d0998737c1ae0a1578a119c96e1e7",
         "layers": ["dtk_skaermkort_daempet"],
         "id": "dtkSkaermkortDaempet",
         "name": "DTK Skærmkort, dæmpet",
