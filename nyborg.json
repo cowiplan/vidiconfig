@@ -5,7 +5,6 @@
   },
   "aboutBox": "<p></p>",
   "baseLayers": [
-       {"id": "osm", "name": "OSM"},
        {
         "type": "wmts",
         "url": "https://api.dataforsyningen.dk/topo_skaermkort_graa_DAF?service=WMTS&request=GetCapabilities&token=9d7d0998737c1ae0a1578a119c96e1e7",
