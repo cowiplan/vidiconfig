@@ -7,7 +7,7 @@
   "baseLayers": [
    {
         "type": "wms",
-        "url": "https://services.kortforsyningen.dk/service?servicename=topo_skaermkort&token=c1d269eb5ceec3a543b218aae2e8ae2c&",
+        "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
         "layers": ["dtk_skaermkort_daempet"],
         "id": "dtkSkaermkortDaempet",
         "name": "DTK Skærmkort, dæmpet",
