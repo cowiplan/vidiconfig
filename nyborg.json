@@ -4,6 +4,7 @@
     "komkode": "450"
   },
   "aboutBox": "<p></p>",
+  "dontUseAdvancedBaseLayerSwitcher": true,
   "baseLayers": [
        {
         "type": "wms",
