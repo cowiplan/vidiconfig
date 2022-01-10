@@ -4,6 +4,7 @@
     "komkode": "*"
   },
   "aboutBox": "<p>COWI about.</p>",
+  "dontUseAdvancedBaseLayerSwitcher": true,
   "baseLayers": [
 	 {
             "id": "geodk.bright",
