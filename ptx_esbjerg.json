@@ -3,7 +3,7 @@
   "searchConfig": {
     "komkode": "561"
   },
-  "aboutBox": "<p>PTX_Esbjerg</p>",
+  "aboutBox": "<p>PTX_Esbjerg - WebGIS</p>",
     "baseLayers": [
         {
             "id": "geodk.bright-01052019",
