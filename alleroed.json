@@ -40,5 +40,7 @@
 
         {"id": "osm", "name": "OSM"}
  
-  ]
+  ],
+	
+	  "enabledPrints": ["alleroed_lp","print"]
 }
