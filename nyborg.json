@@ -14,7 +14,7 @@
         "name": "DTK Skærmkort, dæmpet",
         "description": "dtk_skaermkort",
         "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        "minZoom": 2,
+        "minZoom": 8,
         "maxZoom": 22,
         "maxNativeZoom": 22
     }, 
