@@ -6,7 +6,7 @@
   "extensionConfig": {
       "conflictSearch": {
         "startBuffer": -2,
-        "getProperty": true,
+        "getProperty": true
     }
   },
 
