@@ -3,6 +3,13 @@
   "searchConfig": {
     "komkode": "561"
   },
+  "extensionConfig": {
+      "conflictSearch": {
+        "startBuffer": -2,
+        "getProperty": true,
+    }
+  },
+
   "aboutBox": "<p>PTX_Esbjerg - WebGIS</p>",
     "baseLayers": [
         {
