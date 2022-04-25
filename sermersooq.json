@@ -5,10 +5,8 @@
   },
   "aboutBox": "<p></p>",
   "baseLayers": [
-	  {"id": "eget_grundkort", "name": "Grundkort", "db": "gl_baselayers"},
-	  {"id": "ortofoto.@LOKKODE@", "name": "Ortofoto", "db": "gl_baselayers"},
-    {"id": "eget_grundkort.grundkort_nunagis", "name": "Grundkort NunaGIS", "db": "gl_baselayers"},
-    {"id": "eget_grundkort.baggrundskort_nunagis", "name": "Baggrundskort NunaGIS", "db": "gl_baselayers"},
+	  {"id": "baggrund.grundkort", "name": "Grundkort", "db": "gl_baselayers"},
+	  {"id": "baggrund.ortofoto", "name": "Ortofoto", "db": "gl_baselayers"},
     {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
   ]
