@@ -1,1 +1,13 @@
-
+{
+  "brandName": "COWI A/S",
+  "searchConfig": {
+    "komkode": "*"
+  },
+  "aboutBox": "<p>COWI about.</p>",
+  "dontUseAdvancedBaseLayerSwitcher": true,
+  "baseLayers": [
+    {"id": "osm", "name": "OSM"},
+		{"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+ 
+  ]
+}
