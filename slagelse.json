@@ -4,7 +4,18 @@
     "komkode": "330"
   },
   "aboutBox": "<p></p>",
-  "baseLayers": [
+  "baseLayers": [	 
+    {
+            "id": "geodk.bright",
+            "name": "GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
   {
         "type": "wms",
         "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
