@@ -5,18 +5,17 @@
   },
   "aboutBox": "<p>Norddjurs Kommunes digitale plan webGIS</p>",
   "baseLayers": [
-    {
-        name: "Grundkort",
-        layer: L.tileLayer.wms('https://api.dataforsyningen.dk/forvaltning2?token=1a940498622e7fbb890d062e38d835af', {
-        layers: [
-        'Basis_kort',
-        'Vejnavne_basiskort',
-        'Stednavne_basiskort',
-        'Husnummer',
-        'Adm-graense'
-    ],
-        attribution: '© <a target="_blank" href=https://dataforsyningen.dk/asset/PDF/rettigheder_vilkaar/Vilk%C3%A5r%20for%20brug%20af%20frie%20geografiske%20data.pdf>Styrelsen for Dataforsyning og Infrastruktur</a>'}),     
-       displayInMenu:true
+        {
+            "id": "kortforsyningen.sagsbehandler_basiskort",
+            "name": "Topografisk kort, lavkontrast (løbende ajourført)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort fra Kortforsyningens Forvaltning2-tjenesten, som bliver løbende ajourført, for nogle objekttyper ned til hvert kvarter.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/88aSdaoCLWKZL8r?x=2553&y=827&a=true&file=sagsbehandler_basiskort.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten."
+           }
     },
    {
         "type": "wms",
