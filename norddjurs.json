@@ -5,6 +5,19 @@
   },
   "aboutBox": "<p>Norddjurs Kommunes digitale plan webGIS</p>",
   "baseLayers": [
+    {
+        name: "Grundkort",
+        layer: L.tileLayer.wms('https://api.dataforsyningen.dk/forvaltning2?token=1a940498622e7fbb890d062e38d835af', {
+        layers: [
+        'Basis_kort',
+        'Vejnavne_basiskort',
+        'Stednavne_basiskort',
+        'Husnummer',
+        'Adm-graense'
+    ],
+        attribution: '© <a target="_blank" href=https://dataforsyningen.dk/asset/PDF/rettigheder_vilkaar/Vilk%C3%A5r%20for%20brug%20af%20frie%20geografiske%20data.pdf>Styrelsen for Dataforsyning og Infrastruktur</a>'}),     
+       displayInMenu:true
+    },
    {
         "type": "wms",
         "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
