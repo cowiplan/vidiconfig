@@ -51,12 +51,7 @@
         display: none !important;
     }
     #conflict-places {
-        margin: 0;
-        position: fixed;
-        top: 0;
-        height: 100px;
-        width: calc(100% - 20px);
-        left: 10px;
+        display: none !important;
     }
     .leaflet-control-boxzoom, .history-control, .leaflet-control-locate, .leaflet-control-measurements {
         display: none !important;
@@ -64,6 +59,29 @@
 
     .conflict-result-content {
         overflow: unset;
+    }
+    
+    a.leaflet-draw-draw-rectangle{
+        display:none;    
+    }
+    
+    a.leaflet-draw-draw-polyline{
+        display:none;    
+    } 
+    a.leaflet-draw-edit-edit {
+        display:none;    
+    }
+    
+    a.leaflet-draw-draw-circlemarker{
+        display:none;
+    }
+    
+    a.leaflet-draw-draw-circlemarker {
+        display: none;
+    }
+    
+    #conflict-custom-search{
+        display:none;
     }
 
 </style>
