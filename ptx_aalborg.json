@@ -39,7 +39,7 @@
               {
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=1a940498622e7fbb890d062e38d835af",
-            "layers": ["geodanmark_2022_12_5cm"],
+            "layers": ["geodanmark_2021_12_5cm"],
             "id": "geodanmark_2022_12_5",
             "name": "Luftfoto 2022",
             "description": "dtk_skaermkort",
