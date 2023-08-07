@@ -1,16 +1,10 @@
 <style>
-    .conflict-heading-cell {
-	width: 80% !important;
-    }
-    .conflict-value-cell {
-	width: 20% !important;
-    }
     .navbar .navbar-brand {
         height: 48px;
         line-height: 19px;
     }
     #pane {
-        height: 500px;
+        height: 597px;
         right: 0 !important;
     }
 
@@ -26,7 +20,7 @@
     }
     #module-container {
         width: 100% !important;
-        top: 500px;
+        top: 597px; 
         right: 0 !important;
         left: 0 !important;
     }
@@ -57,7 +51,12 @@
         display: none !important;
     }
     #conflict-places {
-        display: none !important;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        height: 100px;
+        width: calc(100% - 20px);
+        left: 10px;
     }
     .leaflet-control-boxzoom, .history-control, .leaflet-control-locate, .leaflet-control-measurements {
         display: none !important;
@@ -65,29 +64,6 @@
 
     .conflict-result-content {
         overflow: unset;
-    }
-    
-    a.leaflet-draw-draw-rectangle{
-        display:none;    
-    }
-    
-    a.leaflet-draw-draw-polyline{
-        display:none;    
-    } 
-    a.leaflet-draw-edit-edit {
-        display:none;    
-    }
-    
-    a.leaflet-draw-draw-circlemarker{
-        display:none;
-    }
-    
-    a.leaflet-draw-draw-circlemarker {
-        display: none;
-    }
-    
-    #conflict-custom-search{
-        display:none;
     }
 
 </style>
