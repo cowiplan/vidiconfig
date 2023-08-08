@@ -4,11 +4,21 @@
     	top: 0;
     	position: relative;
     }
-    .conflict-heading-cell {
-	max-width: 80% !important;
+    @media (max-width: 600px) {
+        .conflict-heading-cell {
+        	width: 80% !important;
+        }
+        .conflict-value-cell {
+        	width: 20% !important;
+        }
     }
-    .conflict-value-cell {
-	max-width: 20% !important;
+    @media (min-width: 600px) {
+        .conflict-heading-cell {
+        	max-width: 80% !important;
+        }
+        .conflict-value-cell {
+        	max-width: 20% !important;
+        }
     }
     .navbar .navbar-brand {
         height: 48px;
