@@ -6,17 +6,17 @@
   "aboutBox": "<p>Københavns Kommunes Spildevandsplan. COWI E-PLAN</p>",
   "baseLayers": [
 	  {
-		"type": "wms",
-        	"url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
-        	"layers": ["dtk_skaermkort_daempet"],
-        	"id": "dtkSkaermkortDaempet",
-        	"name": "DTK Skærmkort, dæmpet",
-        	"description": "dtk_skaermkort",
-        	"attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        	"minZoom": 8,
-        	"maxZoom": 22,
-		"maxNativeZoom": 22
-    	},
+	    "type": "wms",
+            "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
+            "layers": ["dtk_skaermkort_daempet"],
+            "id": "dtkSkaermkortDaempet",
+            "name": "DTK Skærmkort, dæmpet",
+            "description": "dtk_skaermkort",
+            "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+            "minZoom": 8,
+            "maxZoom": 22,
+	    "maxNativeZoom": 22
+    	 },
 	 {
             "id": "geodk.bright",
             "name": "GeoDanmark kort",
