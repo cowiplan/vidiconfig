@@ -64,10 +64,6 @@
 			{"id": "stamenTonerLite", 
 			"name": "Stamen Toner Light"}        
  
-  ],
-  "enabledExtensions": [
-	"embed"
-  ],
-  "template": "embed.tmpl"
+  ]
 
 }
