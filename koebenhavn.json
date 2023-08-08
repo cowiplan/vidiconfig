@@ -1,33 +1,73 @@
-﻿{
-  "brandName": "Koebenhavns Kommune",
+{
+  "brandName": "Københavns Kommunes Spildevandsplan",
   "searchConfig": {
     "komkode": "101"
   },
-  "aboutBox": "<p>Københavns Kommunes sektorplaner</p>",
+  "aboutBox": "<p>Københavns Kommunes Spildevandsplan. COWI E-PLAN</p>",
   "baseLayers": [
-        {
-        "type": "wms",
-        "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
-        "layers": ["dtk_skaermkort_daempet"],
-        "id": "dtkSkaermkortDaempet",
-        "name": "DTK Skærmkort, dæmpet",
-        "description": "dtk_skaermkort",
-        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        "minZoom": 8,
-        "maxZoom": 22,
-        "maxNativeZoom": 22
+	  {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
+            "layers": ["Basis_kort","Vejnavne_basiskort","Stednavne_basiskort"],
+            "id": "Grundkort",
+            "name": "Grundkort",
+            "description": "Grundkort",
+            "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+    	  },
+	  {
+	    "type": "wms",
+            "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
+            "layers": ["dtk_skaermkort_daempet"],
+            "id": "dtkSkaermkortDaempet",
+            "name": "DTK Skærmkort, dæmpet",
+            "description": "dtk_skaermkort",
+            "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+            "minZoom": 8,
+            "maxZoom": 22,
+	    "maxNativeZoom": 22
+    	 },
+	 {
+            "id": "geodk.bright",
+            "name": "GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },        {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
         },
         {
-        "type": "wms",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=1a940498622e7fbb890d062e38d835af",
-        "layers": ["geodanmark_2022_12_5cm"],
-        "id": "geodanmark_2022_12_5",
-        "name": "Luftfoto 2022",
-        "description": "Luftfoto_2022",
-        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        "minZoom": 8,
-        "maxZoom": 22,
-        "maxNativeZoom": 22
-        }
-  ]
+            "id": "luftfotoserier.geodanmark_2016_12_5cm",
+            "name": "Luftfoto 2016",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+			{"id": "stamenTonerLite", 
+			"name": "Stamen Toner Light"}        
+ 
+  ],
+  "enabledExtensions": [
+	"embed"
+  ],
+  "template": "embed.tmpl"
+
 }
