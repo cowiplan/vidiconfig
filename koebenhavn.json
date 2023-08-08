@@ -1,0 +1,48 @@
+﻿{
+  "brandName": "Koebenhavns Kommune",
+  "searchConfig": {
+    "komkode": "101"
+  },
+  "aboutBox": "<p>Københavns Kommunes sektorplaner</p>",
+  "baseLayers": [
+      {
+        "type": "wms",
+        "url": "https://api.dataforsyningen.dk/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
+        "layers": ["Basis_kort","Vejnavne_basiskort","Stednavne_basiskort"],
+        "id": "Grundkort",
+        "name": "Grundkort",
+        "description": "Grundkort",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22
+        },	
+        {
+        "type": "wms",
+        "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
+        "layers": ["dtk_skaermkort_daempet"],
+        "id": "dtkSkaermkortDaempet",
+        "name": "DTK Skærmkort, dæmpet",
+        "description": "dtk_skaermkort",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22
+        },
+        {
+        "type": "wms",
+        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=1a940498622e7fbb890d062e38d835af",
+        "layers": ["geodanmark_2022_12_5cm"],
+        "id": "geodanmark_2022_12_5",
+        "name": "Luftfoto 2022",
+        "description": "Luftfoto_2022",
+        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+        "minZoom": 8,
+        "maxZoom": 22,
+        "maxNativeZoom": 22
+        }, 
+    {"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+ 
+  ]
+}
