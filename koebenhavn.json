@@ -5,7 +5,7 @@
   },
   "aboutBox": "<p>Københavns Kommunes sektorplaner</p>",
   "baseLayers": [
-      {
+        {
         "type": "wms",
         "url": "https://api.dataforsyningen.dk/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
         "layers": ["Basis_kort","Vejnavne_basiskort","Stednavne_basiskort"],
