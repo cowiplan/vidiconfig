@@ -1,7 +1,7 @@
 {
   "brandName": "COWI A/S",
   "searchConfig": {
-    "komkode": "*"
+    "komkode": "329"
   },
   "aboutBox": "<p>COWI about.</p>",
   "dontUseAdvancedBaseLayerSwitcher": true,
