@@ -31,8 +31,7 @@
             "maxNativeZoom": 22
         },
 
-        {"id": "osm", "name": "OSM"},
-		{"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+        {"id": "osm", "name": "OSM"}
  
   ]
 }
