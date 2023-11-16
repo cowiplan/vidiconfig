@@ -5,6 +5,7 @@
   },
   "aboutBox": "<p>COWI about.</p>",
   "dontUseAdvancedBaseLayerSwitcher": true,
+  "crossMultiSelect": true,
   "baseLayers": [
 	  {
             "type": "wms",
