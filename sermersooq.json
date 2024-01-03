@@ -7,7 +7,7 @@
   "baseLayers": [
 	  {
             "type": "wms",
-            "url": "https://api.dataforsyningen.dk/wms/gl_forvaltning?token=1875554bc65c2314d0ce00f4703cddaf",
+            "url": "https://api.dataforsyningen.dk/wms/gl_forvaltning?service=WMS&request=GetCapabilities&token=1875554bc65c2314d0ce00f4703cddaf",
 	    "layers": ["gl_forvaltning"],
             "id": "Forvaltningskort",
             "name": "Forvaltningskort",
