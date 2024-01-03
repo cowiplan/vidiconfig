@@ -13,6 +13,7 @@
             "name": "Forvaltningskort",
             "description": "Forvaltningskort",
             "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+	    "maxZoom": 21
     	  },
 	  {"id": "baggrund.grundkort", "name": "Grundkort", "db": "gl_baselayers"},
 	  {"id": "baggrund.ortofoto", "name": "Ortofoto", "db": "gl_baselayers"},
