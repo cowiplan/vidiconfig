@@ -26,9 +26,16 @@
             "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
 	    "maxZoom": 21
     	  },
-	  {"id": "baggrund.grundkort", "name": "Grundkort", "db": "gl_baselayers"},
-	  {"id": "baggrund.ortofoto", "name": "Ortofoto", "db": "gl_baselayers"},
-    {"id": "osm", "name": "Open Street Map"},
-    {"id": "stamenTonerLite", "name": "Stamen Toner Light"}
+	  {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/wms/gl_satellitfoto?service=WMS&request=GetCapabilities&token=1875554bc65c2314d0ce00f4703cddaf",
+	    "layers": ["ortofoto"],
+            "id": "Ortofoto",
+            "name": "Ortofoto",
+            "description": "Ortofoto",
+            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+	    "maxZoom": 21
+	  },
+    {"id": "osm", "name": "Open Street Map"}
   ]
 }
