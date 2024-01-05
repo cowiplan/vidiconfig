@@ -20,7 +20,7 @@
 			"asiaq_trafik_1_25000",
 			"asiaq_bygningsnr_1_3000",
 			"teknik",
-	    		"kommunenavn"],
+	    		"bostednavn_1_1000000"],
             "id": "Forvaltningskort",
             "name": "Forvaltningskort",
             "description": "Forvaltningskort",
