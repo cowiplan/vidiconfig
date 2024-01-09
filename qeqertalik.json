@@ -5,10 +5,38 @@
   "aboutBox": "<p></p>",
 
   "baseLayers": [
-	{"id": "osm", "name": "OSM"},
-	{"id": "eget_grundkort", "name": "Grundkort", "db": "gl_baselayers"},
-	{"id": "ortofoto.@LOKKODE@", "name": "Ortofoto", "db": "gl_baselayers"}
-	
+	  {"id": "osm", "name": "Open Street Map"},
+	  {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/wms/gl_forvaltning?service=WMS&request=GetCapabilities&token=1875554bc65c2314d0ce00f4703cddaf",
+	    "layers": ["skyggekort",
+			"terraen",
+			"arealanvendelse",
+			"hydrologi",
+			"kommunegraense",
+			"hoejdekurver_og_koter",
+			"trafik",
+			"bygninger",
+			"asiaq_bygninger_1_20000",
+			"asiaq_trafik_1_25000",
+			"asiaq_bygningsnr_1_3000",
+			"teknik"],
+            "id": "Forvaltningskort",
+            "name": "Forvaltningskort",
+            "description": "Forvaltningskort",
+            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+	    "maxZoom": 21
+    	  },
+	  {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/wms/gl_satellitfoto?service=WMS&request=GetCapabilities&token=1875554bc65c2314d0ce00f4703cddaf",
+	    "layers": ["ortofoto"],
+            "id": "Ortofoto",
+            "name": "Ortofoto",
+            "description": "Ortofoto",
+            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+	    "maxZoom": 21
+	  }
   ],
 
   "enabledSearch": "google",
