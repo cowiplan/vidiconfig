@@ -58,5 +58,6 @@
 
         {"id": "osm", "name": "OSM"}
  
-  ]
+  ],
+"cssFiles": "test.css"
 }
