@@ -1,3 +1,3 @@
-.panel-heading {
-  background-color: red !important;
+.custom-popup .leaflet-popup-content-wrapper .panel-heading {
+  background-color: #d8dfdf;
 }
