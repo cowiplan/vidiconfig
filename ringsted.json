@@ -6,6 +6,7 @@
   "aboutBox": "<p>COWI about.</p>",
   "dontUseAdvancedBaseLayerSwitcher": true,
   "crossMultiSelect": true,
+  "cssFiles": "test.css",
   "baseLayers": [
 	  {
             "type": "wms",
@@ -58,6 +59,5 @@
 
         {"id": "osm", "name": "OSM"}
  
-  ],
-"cssFiles": "test.css"
+  ]
 }
