@@ -36,6 +36,18 @@
                 "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten."
             }
         },
+          {
+            "id": "luftfotoserier.geodanmark_2023_12_5cm",
+            "name": "Luftfoto",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2019 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/zqoWbwDGiyCQ5zn?x=2553&y=827&a=true&file=luftfoto_2019.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
               {
             "id": "luftfotoserier.geodanmark_2019_12_5cm",
             "name": "Luftfoto 2019",
