@@ -35,8 +35,7 @@
                 "maxNativeZoom": 26,
                 "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten."
             }
-        },
-       {
+        },{
             "id": "luftfoto-foraar-daf",
             "name": "Luftfoto",
             "db": "baselayers",
