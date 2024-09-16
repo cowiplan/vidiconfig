@@ -3,5 +3,5 @@
 }
 
 #mapcontrols-history-backward, #mapcontrols-history-forward, #mapcontrols-clear-map, #session, #about-btn, #find-me-btn, #burger-btn {
-  display: none,
+  display: none;
 }
