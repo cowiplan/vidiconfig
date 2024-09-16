@@ -1,3 +1,7 @@
 .custom-popup .leaflet-popup-content-wrapper .panel-heading {
   background-color: #d8dfdf;
 }
+
+#mapcontrols-history-backward, #mapcontrols-history-forward, #mapcontrols-clear-map, #session, #about-btn, #find-me-btn, #burger-btn {
+  display: none,
+}
