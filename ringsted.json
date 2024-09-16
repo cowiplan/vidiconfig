@@ -6,7 +6,7 @@
   "aboutBox": "<p>COWI about.</p>",
   "dontUseAdvancedBaseLayerSwitcher": true,
   "crossMultiSelect": true,
-  "cssFiles": ["test.css"],
+  "cssFiles": ["ringsted.css"],
   "baseLayers": [
 	  {
             "type": "wms",
