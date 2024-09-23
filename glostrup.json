@@ -1,0 +1,34 @@
+{
+  "brandName": "COWI A/S",
+  "searchConfig": {
+    "komkode": "*"
+  },
+  "aboutBox": "<p>COWI about.</p>",
+  "dontUseAdvancedBaseLayerSwitcher": true,
+  "baseLayers": [
+  {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
+            "layers": ["Basis_kort","Vejnavne_basiskort","Stednavne_basiskort"],
+            "id": "Grundkort",
+            "name": "Grundkort",
+            "description": "Grundkort",
+            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+    	  },
+	  {
+            "type": "wms",
+            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=1a940498622e7fbb890d062e38d835af",
+            "layers": ["orto_foraar_12_5"],
+            "id": "luftfotoForaar",
+            "name": "Luftfoto Forår (nyeste)",
+            "description": "Ortofoto forår",
+            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 22
+        }
+  ]
+}
