@@ -6,6 +6,7 @@
   "aboutBox": "<p>COWI about.</p>",
   "dontUseAdvancedBaseLayerSwitcher": true,
   "crossMultiSelect": true,
+  "activateMainTab": "legend",
   "cssFiles": ["ringsted.css"],
   "baseLayers": [
   {
