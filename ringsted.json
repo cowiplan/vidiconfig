@@ -6,7 +6,6 @@
   "aboutBox": "<p>COWI about.</p>",
   "dontUseAdvancedBaseLayerSwitcher": true,
   "crossMultiSelect": true,
-  "initFunction": "function(){$('#embed-legend-panel .panel-heading').trigger('click')}",
   "cssFiles": ["ringsted.css"],
   "baseLayers": [
   {
