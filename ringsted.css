@@ -4,6 +4,6 @@
 }
 
 /* Skjul af knapper */
-#mapcontrols-history-backward, #mapcontrols-history-forward, #mapcontrols-clear-map, #about-btn, #find-me-btn, #burger-btn {
+#mapcontrols-history-backward, #mapcontrols-history-forward, #mapcontrols-clear-map, #about-btn, #find-me-btn, #burger-btn, .embed-session {
   display: none;
 }
