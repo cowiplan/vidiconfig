@@ -3,6 +3,11 @@
   background-color: #d8dfdf;
 }
 
+/* Skjul pop-up titel */
+.popup-title {
+  display: none;
+}
+
 /* Skjul af knapper */
 #mapcontrols-history-backward, #mapcontrols-history-forward, #mapcontrols-clear-map, #about-btn, #find-me-btn, #burger-btn, .embed-session {
   display: none;
