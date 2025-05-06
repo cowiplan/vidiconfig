@@ -4,7 +4,7 @@
 }
 
 /* Skjul pop-up titel */
-.popup-title {
+.custom-popup .leaflet-popup-content-wrapper .popup-title {
   display: none;
 }
 
