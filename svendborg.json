@@ -5,43 +5,51 @@
   },
   "aboutBox": "<p>Svendborg Kommunes digitale plan webGIS</p>",
   "baseLayers": [
-           {
-            "type": "wms",
-            "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
-            "layers": ["Basis_kort","Vejnavne_basiskort","Stednavne_basiskort"],
-            "id": "Grundkort",
-            "name": "Grundkort",
-            "description": "Grundkort",
-            "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-            "minZoom": 8,
-            "maxZoom": 22,
-            "maxNativeZoom": 22
-    	  },       
- 
-        {
-            "id": "kortforsyningen.sagsbehandler_basiskort",
-            "name": "Topografisk kort, lavkontrast (løbende ajourført)",
-            "db": "geofyn",
-            "host": "https://geofyn.mapcentia.com",
-            "abstract": "<p>Topografisk kort fra Kortforsyningens Forvaltning2-tjenesten, som bliver løbende ajourført, for nogle objekttyper ned til hvert kvarter.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/88aSdaoCLWKZL8r?x=2553&y=827&a=true&file=sagsbehandler_basiskort.png&scalingup=0'>",
-            "config": {
-                "maxZoom": 26,
-                "maxNativeZoom": 26,
-                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten."
-           }
+    {
+      "type": "wms",
+      "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
+      "layers": [
+        "Basis_kort",
+        "Vejnavne_basiskort",
+        "Stednavne_basiskort"
+      ],
+      "id": "Grundkort",
+      "name": "Grundkort",
+      "description": "Grundkort",
+      "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+      "minZoom": 8,
+      "maxZoom": 22,
+      "maxNativeZoom": 22
     },
-   {
-        "type": "wms",
-        "url": "https://api.dataforsyningen.dk/wms/topo_skaermkort_DAF?token=1a940498622e7fbb890d062e38d835af",
-        "layers": ["dtk_skaermkort_daempet"],
-        "id": "dtkSkaermkortDaempet",
-        "name": "DTK Skærmkort, dæmpet",
-        "description": "dtk_skaermkort",
-        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        "minZoom": 8,
-        "maxZoom": 22,
-        "maxNativeZoom": 22
-    },    
-    {"id": "osm", "name": "Open Street Map"}
+    {
+      "id": "kortforsyningen.sagsbehandler_basiskort",
+      "name": "Topografisk kort, lavkontrast (løbende ajourført)",
+      "db": "geofyn",
+      "host": "https://geofyn.mapcentia.com",
+      "abstract": "<p>Topografisk kort fra Kortforsyningens Forvaltning2-tjenesten, som bliver løbende ajourført, for nogle objekttyper ned til hvert kvarter.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/88aSdaoCLWKZL8r?x=2553&y=827&a=true&file=sagsbehandler_basiskort.png&scalingup=0'>",
+      "config": {
+        "maxZoom": 26,
+        "maxNativeZoom": 26,
+        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner, Forvaltning2-tjenesten."
+      }
+    },
+    {
+      "type": "wms",
+      "url": "https://api.dataforsyningen.dk/wms/topo_skaermkort_DAF?token=1a940498622e7fbb890d062e38d835af",
+      "layers": [
+        "dtk_skaermkort_daempet"
+      ],
+      "id": "dtkSkaermkortDaempet",
+      "name": "DTK Skærmkort, dæmpet",
+      "description": "dtk_skaermkort",
+      "attribution": "Styrelsen for Dataforsyning og Effektivisering",
+      "minZoom": 8,
+      "maxZoom": 22,
+      "maxNativeZoom": 22
+    },
+    {
+      "id": "osm",
+      "name": "Open Street Map"
+    }
   ]
 }
