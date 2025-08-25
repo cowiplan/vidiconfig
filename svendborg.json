@@ -17,19 +17,7 @@
             "maxZoom": 22,
             "maxNativeZoom": 22
     	  },       
-        {
-            "type": "wms",
-            "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=eaca82e1cb411d78e841c7eba8ec1bbc",
-            "layers": ["dtk_skaermkort_daempet"],
-            "id": "dtk_skaermkort_daempet",
-            "name": "dtk_skaermkort_daempet",
-            "description": "geodanmark_2020_12_5cm",
-            "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-            "minZoom": 8,
-            "maxZoom": 22,
-            "maxNativeZoom": 22,
-            "transparent": true
-        },
+ 
         {
             "id": "kortforsyningen.sagsbehandler_basiskort",
             "name": "Topografisk kort, lavkontrast (løbende ajourført)",
@@ -44,7 +32,7 @@
     },
    {
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/wms/topo_skaermkort_DAF?token=9d7d0998737c1ae0a1578a119c96e1e7",
+        "url": "https://api.dataforsyningen.dk/wms/topo_skaermkort_DAF?token=1a940498622e7fbb890d062e38d835af",
         "layers": ["dtk_skaermkort_daempet"],
         "id": "dtkSkaermkortDaempet",
         "name": "DTK Skærmkort, dæmpet",
