@@ -23,7 +23,7 @@
     },
     {
       "type": "wms",
-      "url": "https://api.dataforsyningen.dk/wms/topo_skaermkort_DAF?token=1a940498622e7fbb890d062e38d835af",
+      "url": "https://api.dataforsyningen.dk/topo_skaermkort_DAF?token=1a940498622e7fbb890d062e38d835af",
       "layers": [
         "dtk_skaermkort_daempet"
       ],
