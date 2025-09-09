@@ -30,7 +30,6 @@
              "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          }
       },
-    {"id": "osm", "name": "Open Street Map"},
-    {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
+    {"id": "osm", "name": "Open Street Map"}
   ]
 }
