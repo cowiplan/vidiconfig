@@ -34,4 +34,5 @@
         {"id": "osm", "name": "OSM"}
  
   ]
+"crs": "EPSG25832"
 }
