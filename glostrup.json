@@ -13,7 +13,7 @@
             "id": "Basiskort",
             "name": "Basiskort",
             "description": "Basiskort",
-            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+            "attribution": "KDS",
             "minZoom": 8,
             "maxZoom": 22,
             "maxNativeZoom": 22
@@ -25,7 +25,7 @@
             "id": "luftfotoForaar",
             "name": "Luftfoto Forår (nyeste)",
             "description": "Ortofoto forår",
-            "attribution": "Styrelsen for Dataforsyning og Infrastruktur",
+            "attribution": "KDS",
             "minZoom": 8,
             "maxZoom": 22,
             "maxNativeZoom": 22
