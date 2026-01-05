@@ -3,8 +3,11 @@
   "searchConfig": {
     "komkode": "510"
   },
-  "aboutBox": "<p>Norddjurs Kommunes digitale plan webGIS</p>",
-  "baseLayers": [
+  "aboutBox": "<p>Haderslev Kommunes digitale plan webGIS</p>",
+  "baseLayers": [{"id": "osm", "name": "Open Street Map"},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
+  ]
+},
     {
             "id": "kortforsyningen.sagsbehandler_basiskort",
             "name": "Topografisk kort, lavkontrast (løbende ajourført)",
