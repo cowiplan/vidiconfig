@@ -6,6 +6,17 @@
   "aboutBox": "<p>Norddjurs Kommunes digitale plan webGIS</p>",
   "baseLayers": [
            {
+            "id": "kortforsyningen.dtk_skaermkort_daempet",
+            "name": "Topografisk kort (Kortforsyningens skærmkort, dæmpet)",
+            "db": "geofyn",
+            "host": "https://geofyn.mapcentia.com",
+            "abstract": "<p>Topografisk kort (Kortforsyningens skærmkort, dæmpet).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, Skærmkort-tjenesten.'.</p><br><img class='img-responsive' src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/EsGqYirMregnRWb?x=2553&y=827&a=true&file=skaermkort_daempet.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+            }
+        },{
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=1a940498622e7fbb890d062e38d835af",
             "layers": ["Basis_kort","Vejnavne_basiskort","Stednavne_basiskort"],
