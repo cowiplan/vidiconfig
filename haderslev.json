@@ -4,7 +4,9 @@
     "komkode": "510"
   },
   "aboutBox": "<p>Haderslev Kommunes digitale plan webGIS</p>",
-  "baseLayers": [{"id": "osm", "name": "Open Street Map"},
+  "baseLayers": [
+    
+    {"id": "osm", "name": "Open Street Map"},
     {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
   ]
 },
