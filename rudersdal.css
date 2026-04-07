@@ -2,3 +2,8 @@ label[for="root_adresse"]::after {
     content: " *";
     color: red;
 }
+#offcanvas-edit-bottom {
+    height: 100vh !important;
+    /* z-index: 1000; */
+    z-index: 9999;
+}
