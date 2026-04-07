@@ -1,3 +1,4 @@
-button#offcanvasLayerControlBtn {
-    --bs-btn-bg: red;
+label[for="root_adresse"]::after {
+    content: " *";
+    color: red;
 }
