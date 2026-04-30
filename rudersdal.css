@@ -30,7 +30,7 @@ label[for="root_ydervaegge"]::after
 
 label[for="root_registreringsdato"]::after,
 label[for="root_registrator"]::after {
-    content: " ⚙";
+    content: "⚙";
     color: #6c757d;
     margin-left: 6px;
     font-size: 0.9em;
