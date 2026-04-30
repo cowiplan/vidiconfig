@@ -14,7 +14,6 @@ label[for="root_registreringsomfang"]::after,
     color: red;
 }
 
-
 label[for="root_bygningsnummer"]::after,
 label[for="root_adgangsadr"]::after,
 label[for="root_postnummer"]::after,
@@ -27,6 +26,14 @@ label[for="root_ydervaegge"]::after
 {
     content: " ℹ";
     color: #0d6efd;
+}
+
+label[for="root_registreringsdato"]::after,
+label[for="root_registrator"]::after {
+    content: " ⚙";
+    color: #6c757d;
+    margin-left: 6px;
+    font-size: 0.9em;
 }
 
 
