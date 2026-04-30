@@ -2,6 +2,14 @@ label[for="root_adresse"]::after {
     content: " *";
     color: red;
 }
+
+
+label[for="root_bygningsnummer"]::after {
+    content: " ℹ";
+    color: #0d6efd;
+}
+
+
 #offcanvas-edit-bottom {
     height: 100vh !important;
     /* z-index: 1000; */
