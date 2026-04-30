@@ -1,4 +1,4 @@
-label[for="root_adresse"]::after {
+label[for="root_arkitektur"]::after {
     content: " *";
     color: red;
 }
