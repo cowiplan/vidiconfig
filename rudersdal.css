@@ -8,6 +8,8 @@ label[for="root_originalitet"]::after,
 label[for="root_tilstand"]::after,
 label[for="root_registreringsstatus"]::after,
 label[for="root_registreringsomfang"]::after,
+label[for="root_bevaringsvaerdi"]::after,
+root_bevaringsvaerdi
 #root_foto_fra_vej__title h5::after
 {
     content: " *";
