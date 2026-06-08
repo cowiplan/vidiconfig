@@ -44,3 +44,7 @@ label[for="root_registrator"]::after {
     /* z-index: 1000; */
     z-index: 9999;
 }
+
+#offcanvas-edit-start {
+    width: 100%;
+}
