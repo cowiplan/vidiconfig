@@ -7,9 +7,8 @@
   "baseLayers": [
     
     {"id": "osm", "name": "Open Street Map"},
-    {"id": "stamenTonerLite", "name": "Stamen Toner Light"} 
-  ]
-},
+    {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+
     {
             "id": "kortforsyningen.sagsbehandler_basiskort",
             "name": "Topografisk kort, lavkontrast (løbende ajourført)",
